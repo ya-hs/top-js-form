@@ -9,7 +9,36 @@
 </head>
 
 <body>
-
+    <header>
+        <div class="title-container">
+            <img src="./assets/odin-lined.png" alt="odin" class="title-logo">
+            <h1 class="title-text">ODIN</h1>
+        </div>
+    </header>
+    <main>
+        <p class="text-block">This is not a real online service! You know you need something like this in your life to
+            help you realise your deepest dreams.<br>Sign up <span class="italics">now</span> to get started.</p>
+        <p class="text-block">You <span class="italics">know</span> you want to.</p>
+        <form action="" id="sign-up-form">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="number" name="phone-number" id="phone-number">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </fieldset>
+            <button type="submit">Create Account</button>
+        </form>
+        <p id="login">Already have an account? <a href="">Log in</a></p>
+    </main>
     <script src="./script.js"></script>
 </body>
 
