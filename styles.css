@@ -1,0 +1,18 @@
+@font-face {
+    font-family: norseBold;
+    src: url(./assets/Norse-Bold.otf);
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+
+    --olive-green: #596D48;
+    --input-border: #E5E7EB;
+    --input-blue: #6598ff;
+    --input-red: #e46c6c;
+}
