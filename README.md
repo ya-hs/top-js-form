@@ -1,6 +1,8 @@
 # odin-form
 Recreating the sign-up form from The Odin Project
 
+To compare in tests to the design file from The Odin Project, open with developer tools and set resolution to 1800 x 1280.
+
 ## Step 1: Set up and planning
 1. Set up your git repository (refer to past projects if you need a refresher).
 2. Set up your HTML and CSS files with some dummy content, just to make sure you have everything linked correctly.
