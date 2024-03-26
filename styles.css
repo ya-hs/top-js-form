@@ -20,6 +20,7 @@
      --input-red: #c02c3f;
      --off-white: #f9fafb;
      --text-bluegrey: #202937;
+     --text-bluegreylight: #48505b;
  }
 
  body {
@@ -130,6 +131,33 @@
                  position: relative;
                  top: 2rem;
              }
+
+             .input-container {
+                 display: flex;
+                 flex-wrap: wrap;
+                 width: 70%;
+
+                 .input {
+                     display: flex;
+                     flex-direction: column;
+                     width: 40%;
+                     margin-right: 5%;
+
+                     label {
+                         font-weight: 500;
+                         color: var(--text-bluegreylight);
+                         letter-spacing: 1.5px;
+                     }
+
+                     input {
+                         border: 1px solid var(--input-border);
+                     }
+                 }
+             }
+
+
+
+
          }
 
 
