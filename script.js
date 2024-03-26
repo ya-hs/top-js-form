@@ -20,5 +20,6 @@ function checkPassword() {
     } else {
         passInput = passInput.style.removeProperty("outline");
         passConfirmInput = passConfirmInput.style.removeProperty("outline");
+        noMatch.style.display = "none";
     }
 }
