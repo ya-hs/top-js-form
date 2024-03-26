@@ -135,22 +135,36 @@
              .input-container {
                  display: flex;
                  flex-wrap: wrap;
-                 width: 70%;
+                 width: 80%;
 
                  .input {
                      display: flex;
                      flex-direction: column;
                      width: 40%;
-                     margin-right: 5%;
+                     margin-right: 10%;
+                     margin-bottom: 3%;
 
                      label {
-                         font-weight: 500;
+                         font-weight: 600;
                          color: var(--text-bluegreylight);
-                         letter-spacing: 1.5px;
+                         letter-spacing: 2px;
+                         font-size: 0.8rem;
+                         margin-bottom: 4px;
                      }
 
                      input {
                          border: 1px solid var(--input-border);
+                         outline: none;
+                         height: 1.9rem;
+                         border-radius: 5px;
+                         font-size: 1.2rem;
+                         padding-left: 15px;
+                         color: var(--text-bluegrey)
+                     }
+
+                     input:focus {
+                         outline: 2px solid var(--input-blue);
+                         box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.08);
                      }
                  }
              }
@@ -160,7 +174,36 @@
 
          }
 
+         button {
+             background-color: var(--olive-green);
+             color: white;
+             font-weight: 600;
+             font-size: 1.2rem;
+             margin-left: 2.5rem;
+             margin-top: 30px;
+             width: 27%;
+             height: 3.5rem;
+             border: none;
+             border-radius: 10px;
+         }
 
+         button:hover {
+             background-color: #4a5b3c;
+             cursor: pointer;
+         }
 
+     }
+
+     #login {
+         margin-left: 2.3rem;
+         margin-top: 35px;
+         font-size: 1.3rem;
+         font-weight: 500;
+         color: var(--text-bluegrey);
+
+         a {
+             color: var(--olive-green);
+             text-decoration: none;
+         }
      }
  }
