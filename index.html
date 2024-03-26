@@ -34,21 +34,21 @@
                 <div class="input-container">
                     <div class="input">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="first-name" id="first-name" autocomplete="given-name">
                     </div>
                     <div class="input">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name">
+                        <input type="text" name="last-name" id="last-name" autocomplete="family-name">
                     </div>
                     <div class="input">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" autocomplete="email">
                     </div>
                     <div class="input">
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" name="phone-number" id="phone-number">
+                        <input type="tel" name="phone-number" id="phone-number" autocomplete="mobile">
                     </div>
-                    <div class="input">
+                    <div class="input" id="password-container">
                         <label for="password">PASSWORD</label>
                         <input type="password" name="password" id="password">
                     </div>
@@ -58,11 +58,11 @@
                     </div>
                 </div>
             </fieldset>
-            <button type="submit">Create Account</button>
+            <button type="button" id="btn-create-account">Create Account</button>
         </form>
         <p id="login">Already have an account? <a href="">Log in</a></p>
     </main>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

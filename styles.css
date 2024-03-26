@@ -162,6 +162,13 @@
                          color: var(--text-bluegrey)
                      }
 
+                     .no-match {
+                         color: red;
+                         margin-top: 2px;
+                         font-size: 0.75rem;
+                         font-weight: 500;
+                     }
+
                      input:focus {
                          outline: 2px solid var(--input-blue);
                          box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.08);
