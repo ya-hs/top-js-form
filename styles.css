@@ -28,6 +28,7 @@
      padding: 0;
      display: flex;
      flex-direction: row;
+     /* overflow: hidden; */
  }
 
  header {
@@ -37,7 +38,7 @@
      background-size: cover;
      background-position: center;
 
-     width: 37%;
+     width: 37vw;
      height: 100vh;
      display: flex;
      flex-direction: column;
@@ -69,10 +70,10 @@
 
      #img-attribute {
          color: white;
-         position: relative;
-         top: 83%;
          text-align: center;
          font-weight: 100;
+         position: relative;
+         top: 75%;
 
          a {
              color: white;
@@ -82,11 +83,10 @@
 
  main {
      background-color: var(--off-white);
-     width: 63%;
+     width: 63vw;
      height: 100vh;
      display: flex;
      flex-direction: column;
-
 
 
      .text-block {
@@ -112,10 +112,9 @@
      }
 
      #sign-up-form {
-
+         width: 100%;
 
          fieldset {
-             width: 100%;
              background-color: white;
              box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.08);
              height: 16.5rem;
@@ -124,6 +123,8 @@
              padding-left: 2.5rem;
              padding-top: 4rem;
              color: var(--text-bluegrey);
+             margin-left: 0;
+             margin-right: 0;
 
              legend {
                  font-size: 1.65rem;
